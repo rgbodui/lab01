@@ -5,15 +5,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ma page</title>
+
+    <style>
+        h2 {
+            font-family: cursive;
+            background-color: yellow;
+        }
+    </style>
+
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 
 <body>
     <h1>Cours de HTML</h1>
-    <h2>Les balises d'en-tête</h2>
+
+    <ul class="menu">
+        <li>
+            <a href="#balises">Les balises d'en-tête</a>
+        </li>
+        <li>
+            <a href="#paragraphes">Les paragraphes</a>
+        </li>
+        <li>
+            <a href="#listes">Les listes</a>
+        </li>
+        <li>
+            <a href="#liens">Les liens</a>
+        </li>
+    </ul>
+
+    <h2 id="balises">Les balises d'en-tête</h2>
     Elles sont au nombre de 6. Elles vont de h1 à h6. Plus le chiffre augmente, plus l'écriture est petite.
 
-    <h2>Les paragraphes</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, dolore eveniet maiores, ab asperiores
+    <div>
+        <a href="#">Retour au menu</a>
+    </div>
+
+    <h2 id="paragraphes">Les paragraphes</h2>
+    <p style="font-family: 'Courier New', Courier, monospace;">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Pariatur, dolore
+        eveniet maiores, ab asperiores
         repudiandae iste quas illum facilis blanditiis qui eligendi quo animi quasi, laborum explicabo reprehenderit
         nobis dignissimos minus harum veniam! Nihil aliquam ut blanditiis vero eaque illo, repellat minima corrupti
         possimus doloribus eos molestias exercitationem, architecto eum facere voluptate necessitatibus perferendis
@@ -26,9 +57,13 @@
         odio eaque molestiae placeat dolore? Nemo, atque provident corporis, repudiandae similique aspernatur hic fugit
         sapiente corrupti quam, in harum reprehenderit nesciunt tempora est officiis pariatur dolorum aliquid alias iure
         dolore! Ex consequatur quasi maxime. Minus, facilis.</p>
+
+    <div>
+        <a href="#">Retour au menu</a>
+    </div>
     <hr> <!-- (ligne horizontale) -->
 
-    <h2>Les listes</h2>
+    <h2 id="listes">Les listes</h2>
     <h3>Les listes non ordonnées</h3>
     <ul>
         <li>Pomme</li>
@@ -42,7 +77,11 @@
         <li>Casino</li>
     </ol>
 
-    <h2>Les liens</h2>
+    <div>
+        <a href="#">Retour au menu</a>
+    </div>
+
+    <h2 id="liens">Les liens</h2>
     <h3>Les liens absolus</h3>
     <div>
         <a href="http://www.google.fr" target="_blank" rel="noopener noreferrer">Aller sur Google</a>
@@ -56,6 +95,36 @@
         <a href="pages/page1.html">Aller à la page 1</a>
     </p>
 
+    <div>
+        <a href="#">Retour au menu</a>
+    </div>
+
+    <h2>Les images</h2>
+    <img src="images/img1.jpeg" alt="Fleur">
+
+    <h2>Les tableaux</h2>
+    <table>
+        <tr>
+            <th>Nom</th>
+            <th>Prénom</th>
+            <th>Classe</th>
+        </tr>
+        <tr>
+            <td>GAYE</td>
+            <td>Abdoulaye</td>
+            <td>L1 F</td>
+        </tr>
+        <tr>
+            <td>MENDY</td>
+            <td>Edouard</td>
+            <td>L1 G</td>
+        </tr>
+        <tr>
+            <td>FALL</td>
+            <td>Aminata</td>
+            <td>L1 D</td>
+        </tr>
+    </table>
 
 </body>
 
